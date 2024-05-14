@@ -1,0 +1,337 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+}
+
+/* NAV BAR */
+
+.imgNav {
+    width: 90px;
+    height: 90px;
+}
+
+.containerNav {
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.listContainerNav {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-self: center;
+}
+
+.linkNav {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9vw;
+    text-align: center;
+}
+
+.linkNav:hover {
+    background-color: #dfdeded2;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.listeNav {
+    margin: 20px;
+    padding: 10px;
+}
+
+/* SECTION */
+
+.Section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("./Image/image6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sectionContainer {
+    
+    margin-left: 70px;
+    
+}
+
+.titleSection {
+    text-align: center;
+	color: #050505;
+    line-height: 1em;
+	font-size: 4vw;
+    z-index: 1000;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.btnSection {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #050505;
+    margin-top: 30px;
+}
+
+.titleBtnSection {
+    text-align: center;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btnSection:hover {
+    background-color: #131313;
+    cursor: pointer;
+}
+
+/* shoesShopContainer */
+
+.shoesShopContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shoesShopSheed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shoesShop {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 32%;
+    margin: 10px;
+}
+
+.imgShoes {
+    height: 380px;
+    width: 380px;
+}
+
+.titleShoesShop {
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.titleShoes {
+    font-size: 1vw;
+    font-weight: bold; 
+}
+
+.shoesPrix {
+    font-size: 1vw;
+    color: #c4c1c1;
+    font-weight: bold;
+    margin-top: 10px; 
+}
+
+.titleContainerShoes {
+    margin: 10px;
+}
+
+/* tradingNow */
+
+.tradingNow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+}
+
+.tradingNowTitle {
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tradingNowSheeldOne {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("./Image/image7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tradingNowSheeldContainer {
+    margin-left: 60px;
+}
+
+.tradingTitle {
+	color: #050505;
+    line-height: 1em;
+	font-size: 3vw;
+    z-index: 1000;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.tradingTitleSheeld {
+    margin-bottom: 20px;
+}
+
+.tradingBtn {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #050505;
+}
+
+.tradingBtn:hover {
+    background-color: #242424;
+    cursor: pointer;
+}
+
+.tradingBtnTitle {
+    text-align: center;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tradingNowSheeldTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgShoesTwo {
+    height: 400px;
+    width: 530px;
+    margin: 15px;
+}
+
+
+/* nikeContainer */
+
+
+
+.nikeContainer {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("./Image/image9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nikeSheeldContainer {
+    margin-left: 70px;
+}
+
+
+
+.nikeTitle {
+    color: #050505;
+    line-height: 1em;
+	font-size: 3vw;
+    z-index: 1000;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.nikeBtn {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #050505;
+    margin-top: 20px;
+}
+
+.nikeBtn:hover {
+    background-color: #242424;
+    cursor: pointer;
+}
+
+.nikeBtnTitle {
+    text-align: center;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+
+/* footer */
+
+.footer {
+    background-color: #050505;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.listFooter {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+    margin: 10px;
+
+}
+
+.titleFooter {
+    color: #ffffff;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.linkFooter {
+    padding: 5px;
+    color: #c4c1c1;
+    font-size: 0.8vw;
+}
+
+.imgNavIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.imgFooter {
+    width: 100px;
+    height: 180px;
+}
